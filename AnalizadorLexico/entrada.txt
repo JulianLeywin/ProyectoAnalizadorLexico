@@ -1,0 +1,13 @@
+select nombre, edad, email from usuarios where edad > 30;
+insert into usuarios values ( 1, 'John', 25);
+update usuarios set edad = edad + 1 where id = 10;
+delete from usuarios where nombre = 'Pedro';
+
+
+123abc
+@variable
+drop table #TablaInvalida;
+alter table usuarios add columna 123Columna int;
+varchar(50)
+'UnclosedString
+unknown@character$here
